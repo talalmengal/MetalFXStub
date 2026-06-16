@@ -1,0 +1,9 @@
+Package: com.talalmengal.metalfxstub
+Name: MetalFXStub
+Depends: mobilesubstrate
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: An Objective-C stub for MetalFX.framework
+Maintainer: talalmengal
+Author: talalmengal
+Section: Tweaks
