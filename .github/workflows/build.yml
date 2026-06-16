@@ -27,5 +27,7 @@ jobs:
     - name: Upload Compiled Binary
       uses: actions/upload-artifact@v4
       with:
-        name: MetalFXStub-Dylib
-        path: .theos/obj/debug/*.dylib
+        name: MetalFXStub-Packages
+        path: |
+          .theos/obj/**/*.dylib
+          packages/*.deb
