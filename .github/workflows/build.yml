@@ -8,7 +8,7 @@ jobs:
 
     steps:
     - name: Checkout Code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Set up Theos Environment
       run: |
@@ -25,7 +25,7 @@ jobs:
         make package FINALPACKAGE=1
         
     - name: Upload Compiled Binary
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: MetalFXStub-Dylib
         path: .theos/obj/debug/*.dylib
